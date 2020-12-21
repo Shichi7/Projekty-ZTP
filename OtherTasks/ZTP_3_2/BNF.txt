@@ -1,0 +1,10 @@
+<class>::=<name>"-"<arguments>"-"<specials>"-"
+<name>::=<term>";"
+<specials>::=<special>|<specials><special>
+<special>::="singleton;"|"allprivate;"|"getters;"|"setters;"|"factory;"
+<arguments>::=<argument>|<arguments><argument>
+<argument>::=<name><access><type>
+<name>::=<term>";"
+<access>::=<term>";"
+<type>::=<term>";"
+<term>::="a"-"z","A"-"Z","0-9"|<term>"a"-"z","A"-"Z","0-9"

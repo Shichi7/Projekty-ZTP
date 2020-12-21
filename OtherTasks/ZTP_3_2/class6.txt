@@ -1,0 +1,1 @@
+Class6;-x;public;int;y;private;String;z;public;boolean;-builder;-

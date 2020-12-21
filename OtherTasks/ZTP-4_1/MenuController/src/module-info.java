@@ -1,0 +1,4 @@
+module MenuController
+{
+    requires MainCourseModel;
+}
